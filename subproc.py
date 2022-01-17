@@ -8,6 +8,11 @@ def run_cmd(cmd_lists: list[str]) -> bool:
     """
     Execute shell commands in parallel, lock main process until completed
 
+    Parameters
+    ----------
+        cmd_lists: list[str]
+            List of shell commands. All commands are to be executed in parallel.
+
     Returns
     -------
         success : bool
